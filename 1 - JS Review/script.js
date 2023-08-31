@@ -142,3 +142,35 @@ function getBooks() {
 function getBook(id) {
   return data.find((d) => d.id === id);
 }
+
+// // Destructuring
+
+const book = getBook(2);
+
+// const { title, author, genres, pages } = book;
+
+// const [primaryGenre, secondaryGenre, ...otherGenres] = genres;
+// // console.log(primaryGenre, secondaryGenre);
+
+// //Spread
+
+// const newGenres = [...otherGenres, "epic fantasy"];
+// newGenres;
+
+// const updatedBook = { book, moviePublicationDate: "2001-12-15" };
+// // console.log(updatedBook.moviePublicationDate.split("-")[0]);
+
+// //Ternary Operator
+// const ternaryOP = pages > 1000 ? "More than 1000" : "Na less than 1000";
+// ternaryOP;
+
+// Optional Chaining
+// Only applies if regarding prop exists
+
+// const books = getBooks(0);
+// const titles = books.map((book) => book.title);
+// titles;
+
+const arr = [1, 3, 435, 41, 12];
+arr.sort((a, b) => a - b);
+arr;
