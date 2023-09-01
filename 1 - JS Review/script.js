@@ -135,17 +135,17 @@ const data = [
   },
 ];
 
-function getBooks() {
-  return data;
-}
+// function getBooks() {
+//   return data;
+// }
 
-function getBook(id) {
-  return data.find((d) => d.id === id);
-}
+// function getBook(id) {
+//   return data.find((d) => d.id === id);
+// }
 
-// // Destructuring
+// // // Destructuring
 
-const book = getBook(2);
+// const book = getBook(2);
 
 // const { title, author, genres, pages } = book;
 
@@ -167,10 +167,34 @@ const book = getBook(2);
 // Optional Chaining
 // Only applies if regarding prop exists
 
-// const books = getBooks(0);
-// const titles = books.map((book) => book.title);
-// titles;
+// const books = getBooks();
+// // const titles = books.map((book) => book.title);
+// // titles;
 
-const arr = [1, 3, 435, 41, 12];
-arr.sort((a, b) => a - b);
-arr;
+// const arr = [1, 3, 435, 41, 12];
+// const newArr = arr.slice().sort((a, b) => a - b);
+
+// // Working with immutable arrays
+// const newBook = {
+//   id: 6,
+//   title: "Kuti",
+//   author: "Kutay",
+// };
+// const booksAfterAdd = [...books, newBook];
+// booksAfterAdd;
+
+// const booksAfterUpdate = booksAfterAdd.map((book) => )
+
+// Fetch API
+// fetch("https://jsonplaceholder.typicode.com/todos/")
+//   .then((res) => res.json())
+//   .then((data) => console.log(data));
+
+// Async/Await
+async function getTodos() {
+  const res = await fetch("https://jsonplaceholder.typicode.com/todos/");
+  const data = await res.json();
+  console.log(data);
+}
+
+getTodos();
