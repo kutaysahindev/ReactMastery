@@ -9,3 +9,4 @@ root.render(
     <App />
   </React.StrictMode>
 );
+//Strict mode is for development purposes

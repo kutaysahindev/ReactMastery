@@ -19,6 +19,8 @@ export default function App() {
 function Logo() {
   return <h1>🌴 Far Away 🎉</h1>;
 }
+
+//Item adding section
 function Form() {
   const [description, setDescription] = useState("");
   const [quantity, setQuantity] = useState(1);
@@ -58,6 +60,8 @@ function Form() {
     </form>
   );
 }
+
+//The main list in the background
 function PackingList() {
   return (
     <div className="list">
@@ -70,6 +74,7 @@ function PackingList() {
   );
 }
 
+// Single item component
 function Item({ item }) {
   return (
     <li>
@@ -81,6 +86,7 @@ function Item({ item }) {
   );
 }
 
+//Stats section at the footer
 function Stats() {
   return (
     <footer className="stats">
