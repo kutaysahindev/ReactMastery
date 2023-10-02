@@ -94,3 +94,9 @@ function Stats() {
     </footer>
   );
 }
+
+// Thinking In React
+// 1- Break UI into components and establish component tree
+// 2- Build static version in React (without state)
+// 3- Think about states: When to use, Type(local vs global), Where to place
+// 4- Establish data flow: One way, Child-to-parent, Accessing global state
