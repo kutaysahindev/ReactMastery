@@ -98,3 +98,7 @@ function DifferentContent() {
     </div>
   );
 }
+
+// Component: Blueprint for component instances.
+// Component Instance: What happens when you use the component, like a physical callback.
+// Each component instance has it's own life cycle.
