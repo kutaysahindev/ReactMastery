@@ -8,6 +8,8 @@ export function useMovies(query, callback) {
 
   useEffect(
     function () {
+      callback?.();
+
       const controller = new AbortController();
       async function fetchMovies() {
         try {
@@ -44,6 +46,7 @@ export function useMovies(query, callback) {
         controller.abort();
       };
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [query]
   );
 
