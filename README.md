@@ -32,9 +32,9 @@ Here's a list of projects included in this repository:
 
 | Project Name    | Description   | Live Demo   | Screenshots |
 | --------------- | ------------- | ----------- | ----------- |
-| Far Away       | A planner to help you with your packing list   | [Live Demo](https://react-mastery-blush.vercel.app/) | ![image](https://github.com/kutaysahindev/ReactMastery/assets/79334889/2c10ff7e-aa16-4509-ae69-24e00f2deccc)|
+| usePopcorn       | A movie tracking tool to save your favorite movies with your rating of choice   | [Live Demo](https://use-popcorn-ruby-kappa.vercel.app/) | ![image](https://github.com/kutaysahindev/ReactMastery/assets/79334889/bb21a3f1-2b49-4650-9016-e5069309d40b)
 | Eat-n-Split       | An app to keep track of what you and your friends owe to each other   | [Live Demo](https://eat-n-split-project.vercel.app/) | ![image](https://github.com/kutaysahindev/ReactMastery/assets/79334889/75f73668-7a1b-476c-a2b1-54cc6e4ee960)|
-| Project 3       | Description   | [Live Demo](#) | [Screenshots](#) |
+| Far Away       | A planner to help you with your packing list   | [Live Demo](https://react-mastery-blush.vercel.app/) | ![image](https://github.com/kutaysahindev/ReactMastery/assets/79334889/2c10ff7e-aa16-4509-ae69-24e00f2deccc)|
 | Project 4       | Description   | [Live Demo](#) | [Screenshots](#) |
 | Project 5       | Description   | [Live Demo](#) | [Screenshots](#) |
 
