@@ -7,6 +7,7 @@ import StartScreen from "./StartScreen";
 import Question from "./Question";
 import NextButton from "./NextButton";
 import Progress from "./Progress";
+import FinishScreen from "./FinishScreen";
 
 const initialState = {
   questions: [],
@@ -98,6 +99,7 @@ const App = () => {
             <NextButton dispatch={dispatch} answer={answer} />
           </>
         )}
+        {(status === "finished") & <FinishScreen />}
       </Main>
     </div>
   );
