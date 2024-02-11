@@ -99,7 +99,9 @@ const App = () => {
             <NextButton dispatch={dispatch} answer={answer} />
           </>
         )}
-        {(status === "finished") & <FinishScreen />}
+        {status === "finished" && (
+          <FinishScreen points={points} maxPossiblePoints={maxPossiblePoints} />
+        )}
       </Main>
     </div>
   );

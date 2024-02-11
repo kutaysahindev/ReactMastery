@@ -7,7 +7,6 @@ function Progress({ index, numQuestions, points, maxPossiblePoints, answer }) {
       </p>
 
       <p>
-        {" "}
         <strong>{points}</strong> / {maxPossiblePoints}
       </p>
     </header>
