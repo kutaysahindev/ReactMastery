@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import PageNav from "../components/PageNav";
+import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
@@ -7,7 +7,7 @@ function Homepage() {
       <PageNav />
       <h1>Worldwise</h1>
 
-      <Link to="/pricing">Pricing</Link>
+      <Link to="/app">Go to the app</Link>
     </div>
   );
 }
